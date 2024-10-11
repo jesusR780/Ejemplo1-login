@@ -1,0 +1,81 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9eff1; /* Color de fondo más atractivo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Título del formulario */
+.login-container h2 {
+    color: #4285f4; /* Color de Gmail */
+    margin-bottom: 20px;
+}
+
+/* Estilo de los campos de entrada */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #34a853; /* Color verde de éxito */
+    outline: none;
+}
+
+/* Estilo del botón de inicio de sesión */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #db4437; /* Rojo de Gmail */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c13527; /* Rojo oscuro */
+}
+
+/* Enlace para recuperar la contraseña */
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    color: #4285f4; /* Azul de Gmail */
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Mensaje de error */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
